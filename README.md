@@ -10,26 +10,26 @@ The purpose of this analysis is to provide support to the School District in dec
 
 - When looking at the school summary, Thomas High School drastically changes. As shown below, the percentage of students passing math and reading is greatly decreased, because, while no 9th graders are being counted in these scores, they are still included in the total students count. The average math score decreases slightly, and the average reading score increases slightly. 
 
-  <img src="C:\Users\soude\Desktop\Data_Analytics_Bootcamp\Module 4 - PyCity Schools\school_district_analysis\Resources\school_summary.png" style="zoom:50%;" />
+  <img src="Resources\school_summary.png" style="zoom:50%;" />
 
 - Replacing the 9th graders scores with "NaN" makes it appear that Thomas High School has a much lower performance and success rate than many of the other schools. Previous to the replacement, Thomas was second in the district, but they are pushed much farther down with the exclusion of the 9th graders.  
 
 - Replacing the ninth-grade scores affects the following:
   - Math and reading scores by grade - The value for Thomas High School's 9th grade math and reading scores has been replaced by "nan" as seen in the figure below (example shows math scores only). 
   
-    <img src="C:\Users\soude\Desktop\Data_Analytics_Bootcamp\Module 4 - PyCity Schools\school_district_analysis\Resources\math_by_grade.png" style="zoom:80%;" />
+    <img src="Resources\math_by_grade.png" style="zoom:80%;" />
   
   - Scores by school spending - The "bin" containing Thomas High School ($630 - 644) shows drastic changes in the passing percentages
   
-    <img src="C:\Users\soude\Desktop\Data_Analytics_Bootcamp\Module 4 - PyCity Schools\school_district_analysis\Resources\per_capita.png" style="zoom: 67%;" />
+    <img src="Resources\per_capita.png" style="zoom: 67%;" />
   
   - Scores by school size - The "bin" containing Thomas High School (Medium (1000 - 2000)) continues to show a decrease in passing percentages, though the value differs due to differing "bin" composition.
   
-    <img src="C:\Users\soude\Desktop\Data_Analytics_Bootcamp\Module 4 - PyCity Schools\school_district_analysis\Resources\school_size.png" style="zoom:67%;" />
+    <img src="Resources\school_size.png" style="zoom:67%;" />
   
   - Scores by school type - The "bin" containing Thomas High School (Charter) continues to show a decrease in passing percentages, though these appear to be the least drastic of our examples, due again to group composition. 
   
-    <img src="C:\Users\soude\Desktop\Data_Analytics_Bootcamp\Module 4 - PyCity Schools\school_district_analysis\Resources\school_type.png" alt="school_type" style="zoom:67%;" />
+    <img src="Resources\school_type.png" alt="school_type" style="zoom:67%;" />
 
 ## Summary
 
